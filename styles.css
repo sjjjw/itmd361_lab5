@@ -1,0 +1,56 @@
+/* style sheet: lab 5 */
+
+body{
+  padding:10px;
+  background-image: url("images/background.jpg");
+  background-size:100%;
+  background-repeat: no-repeat;
+  font-family: 'Noto Sans', sans-serif;
+}
+.main{
+  background:rgba(0, 0, 0, 0.2);
+  height:100%;
+  margin:0;
+  padding:20px;
+}
+#header{
+  margin-top:10px;
+  margin-bottom:10px;
+}
+#header h1{
+  text-align:center;
+  padding:10px;
+  font-weight: bold;
+  font-size: 35px;
+  text-shadow: -1px 0 #F2F1F6, 0 1px #F2F1F6, 1px 0 #F2F1F6, 0 -1px #F2F1F6;
+  -moz-text-shadow: -1px 0 #F2F1F6, 0 1px #F2F1F6, 1px 0 #F2F1F6, 0 -1px #F2F1F6;
+  -webkit-text-shadow: -1px 0 #F2F1F6, 0 1px #F2F1F6, 1px 0 #F2F1F6, 0 -1px #F2F1F6;
+}
+.bottom{
+  bottom:0px;
+  margin-top:10px;
+  margin-bottom:10px;
+  width:98%;
+  text-align:right;
+  position:fixed;
+}
+table{
+  position: relative;
+  width:95%;
+  height:400px;
+  border-spacing:5px;
+}
+th{
+  font-weight: bold;
+  font-size: 20px;
+  text-align:left;
+}
+td{
+  font-size:16px;
+  padding: 6px;
+  border-bottom: 1px solid #CCCEDC;
+}
+sup{
+  vertical-align: 7px;
+  font-size: smaller;
+}
